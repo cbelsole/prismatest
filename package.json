@@ -1,0 +1,15 @@
+{
+  "name": "cbelsole/prismatest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^4.16.1",
+    "prisma": "^4.16.1"
+  },
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
