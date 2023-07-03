@@ -1,5 +1,5 @@
 {
-  "name": "cbelsole/prismatest",
+  "name": "@cbelsole/prismatest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,9 @@
     "prisma": "^4.16.1"
   },
   "scripts": {
-    "start": "tsc && node build/index.js"
+    "start": "tsc && node build/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
   },
   "devDependencies": {
     "typescript": "^5.0.4"

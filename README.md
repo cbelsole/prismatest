@@ -1,5 +1,14 @@
 # Prisma Test
 
+## Setup
+
+1. `docker-compose up`
+2. `npm i`
+3. `npm run prisma:generate`
+4. `npm run prisma:migrate`
+
+## Description
+
 This is a test repository for testing decimal values in Prisma with a Postgres data source.
 
 Given the schema:
